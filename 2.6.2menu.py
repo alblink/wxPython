@@ -35,11 +35,16 @@ class ToolBarFrame(wx.Frame):
         menuBar.Append(menu2, "&Edit")  # 在菜单栏上附上菜单
         self.SetMenuBar(menuBar)  # 在框架上附上菜单栏
 
+
 if __name__ == '__main__':
     app = wx.PySimpleApp()
     frame = ToolBarFrame(parent=None, id=-1)
     frame.Show()
     app.MainLoop()
+
+
+
+
 
 
 
